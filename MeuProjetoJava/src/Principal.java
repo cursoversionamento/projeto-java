@@ -4,5 +4,6 @@ public class Principal {
 		Professor professor = new Professor();
 		professor.setNome("Rafael");
 		System.out.println("Hello: "+professor.getNome()+"!");
+		System.out.println("Teste de push");
 	}
 }
