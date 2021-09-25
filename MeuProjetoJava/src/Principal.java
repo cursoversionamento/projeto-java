@@ -1,6 +1,8 @@
 
 public class Principal {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		Professor professor = new Professor();
+		professor.setNome("Rafael");
+		System.out.println("Hello: "+professor.getNome()+"!");
 	}
 }
