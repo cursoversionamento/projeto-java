@@ -2,6 +2,7 @@
 public class Professor {
 	private String nome;
 	private String CPF;
+	private int anoContratacao;
 	private NivelPosgraduacao nivelPosgraduacao;
 
 	public String getNome() {
@@ -18,6 +19,14 @@ public class Professor {
 
 	public void setCPF(String cPF) {
 		CPF = cPF;
+	}
+
+	public int getAnoContratacao() {
+		return anoContratacao;
+	}
+
+	public void setAnoContratacao(int anoContratacao) {
+		this.anoContratacao = anoContratacao;
 	}
 	
 	
